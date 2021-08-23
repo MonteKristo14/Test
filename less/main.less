@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media (min-width: 320px) {
+  .block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .title{
+    width: 100%;
+    margin-bottom: 14px;
+
+
+    h1{
+      color: #fff;
+      background: #0D274D;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+    }
+
+  }
+  .excellence{
+    margin: 30px 63px 28px 50px;
+
+    .first{
+      margin-bottom: 10px;
+    }
+  }
+
+  }
+@media(min-width: 1000px){
+  .block-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .block {
+    flex-basis: 30%;
+    height: 577px;
+  }
+  .title{
+    margin-bottom: 0;
+  }
+  .title-middle{
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  .deep-container-m-col {
+    display: grid;
+    grid-auto-flow: column;
+  }
+}
+
+
+
+.block {
+  border: 1px solid #0D274D;
+
+  .price-main{
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .title {
+
+  }
+
+  .excellence {
+
+    li {
+      font-size: 15px;
+      font-weight: 400;
+      color: #000;
+      list-style: none url('/images/Group 10965.png');
+    }
+  }
+
+  .price-container {
+    text-align: center;
+    h2 {
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 21px;
+      margin-bottom: 8px;
+    }
+
+    .price {
+      font-weight: 900;
+      font-size: 20px;
+      line-height: 26px;
+      color: #0E9A0B;
+    }
+  }
+
+  hr {
+    width: 90%;
+    height: 2px;
+    background: #00BCEB;
+    border: none;
+    margin: 45px 0 14px 0;
+  }
+
+  .deep-container-two-col{
+    grid-template-rows: 1fr 1fr !important;
+  }
+
+  .deep-container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 0 33px 0 16px;
+    width: 90%;
+    justify-content: space-between;
+
+    li {
+      list-style: none url('/images/Vector.png');
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 21px;
+      color: #282828;
+      text-decoration: underline;
+      margin-top: 30px;
+    }
+  }
+
+  button{
+    color:#ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21px;
+    padding: 12px;
+    background: #00BCEB;
+    border-radius: 6px;
+    border: none;
+    margin: 27px 16px 17px 15px;
+  }
+
+  }
+
+
+
+
+
